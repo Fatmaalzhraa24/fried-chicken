@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.list-of-rating{
+    display: flex;
+}
+.list-of-rating img{
+    width: 32px;
+}
+#restaurantForm{
+    display: flex;
+    flex-direction: column;
+}
+
+#restaurantForm input{
+    height: 20px;
+    width: 100px;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+#restaurantForm input[type="submit"]{
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+#restaurant{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid red;
+    border-radius: 4px;
+    padding: 10px;
+}
+#list-of-restaurant{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
